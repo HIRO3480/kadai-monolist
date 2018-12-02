@@ -16,6 +16,7 @@ class UsersController < ApplicationController
     else
       flash.now[:danger] = "ユーザーの登録に失敗しました。"
       render :new
+    end
   end
 end
 
